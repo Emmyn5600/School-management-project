@@ -2,6 +2,11 @@
     <div class="jumbotron">
         <h1 class="display-4">School Management</h1>
         <p class="lead">This is my school management project.</p>
+         <% if cookies[:allow_cookies] == '1' %>
+             <p class="lead">Emmy has changed this text my school management project because of the cookies accepted.</p>
+               <%else%>
+              <p class="lead">This is my school management project.</p>
+          <%end%>
         <p class="lead">content coming soon.</p>
         <hr class="my-4">
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>

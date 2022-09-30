@@ -166,7 +166,7 @@ To get a local copy up and running follow these simple example steps:
 ## Built With
 
 * Ruby v3.0.0
-* Ruby on Rails v7.0.4
+* Ruby on Rails v6
 * Postgres: >=13.4-1
 * SQLite3
 * Node.js v16.10.0
