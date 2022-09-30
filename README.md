@@ -20,57 +20,61 @@
 - Reversible Migrations in Rails
 - Run specific Migration in Rails
 - Old version Rails migrations
+
 - ActiveRecord Associations in Rails
-- has_many/belongs_to/has_and_belongs_to_many/has_many:through/has_one/has_one :through/Polymorphic Association in Rails
+      - has_many/belongs_to/has_and_belongs_to_many/has_many:through/has_one/has_one :through/Polymorphic Association in Rails
+
+
 - ActiveRecord callbacks
 
-callbacks executed on creating/updating an object.
+      callbacks executed on creating/updating an object.
 
-before_validation
-after_validation
-before_save
-around_save
-before_create/update
-around_create/update
-after_create/update
-after_save
-after_commit/ after_rollback
+      before_validation
+      after_validation
+      before_save
+      around_save
+      before_create/update
+      around_create/update
+      after_create/update
+      after_save
+      after_commit/ after_rollback
 
-callbacks executed on deleting an object.
+      callbacks executed on deleting an object.
 
-before_destroy
-around_destroy
-after_destroy
-after_commit /after_rollback
+      before_destroy
+      around_destroy
+      after_destroy
+      after_commit /after_rollback
 
 
-Common callbacks
+      Common callbacks
 
-For Create/Update/Delete
+      For Create/Update/Delete
 
-- after_commit/ after_rollback
+      - after_commit/ after_rollback
 
-For Create/Update
+      For Create/Update
 
-- before_validation
-- after_validation
-- before_save/around_save/after_save
+      - before_validation
+      - after_validation
+      - before_save/around_save/after_save
+
 
 - ActiveRecord Validations
 
-Model Level Validations :are the best way to ensure that only valid data are saved into database 
+      Model Level Validations :are the best way to ensure that only valid data are saved into database 
 
-Database constraints
-Client Side Validations
-Controller Level Validations
+           - Database constraints
+           - Client Side Validations
+           - Controller Level Validations
 
 
-Example validations
+      Example validations
 
-presence
-uniqueness
-numericality
-format
+           - presence
+           - uniqueness
+           - numericality
+           - format
 
 - Instance Methods for ActiveRecord Objects
 
@@ -93,8 +97,8 @@ format
 - Action View in Rails
 
 - Rails Routing in Details
-  - Member and Colletion Routinf
-  - Namespace and Scope Routing in Rails
+          - Member and Colletion Routinf
+          - Namespace and Scope Routing in Rails
 
 - ActiveSupport Concerns in Rails
 
