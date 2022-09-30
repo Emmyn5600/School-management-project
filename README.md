@@ -96,9 +96,9 @@
 
 - Action View in Rails
 
-- Rails Routing in Details
-          - Member and Colletion Routinf
-          - Namespace and Scope Routing in Rails
+ - Rails Routing in Details
+         - Member and Colletion Routing
+         - Namespace and Scope Routing in Rails
 
 - ActiveSupport Concerns in Rails
 
@@ -108,7 +108,7 @@
 
 - Webpacker in Rails
 
-- Working with Bootstrap/bulma and tailwind in Components
+- Working with Bootstrap/bulma/foundation and tailwind in Components
 
 - Bootstrap Admin theme integration in Rails
 
